@@ -7,24 +7,24 @@ body{
 
 
 .navbar {
-background-color: #000000;       /* cor de fundo da navbar */
+background-color: #000000;       
 padding: 10px 0;
 }
 
-/* Lista da navbar em linha (horizontal) */
+
 .navbar-list {
-  display: flex;                /* deixa os itens em linha */
-  justify-content: center;     /* centraliza horizontalmente */
-  list-style: none;            /* remove os pontos da lista */
+  display: flex;                
+  justify-content: center;     
+  list-style: none;           
   margin: 0;
   padding: 0;
-  gap: 80px;                    /* espaço entre os itens */
+  gap: 80px;                 
 }
 
-/* Links da navbar */
+
 .navbar-list li a {
-  text-decoration: none;       /* tira o sublinhado */
-  color: white;                /* cor do texto */
+  text-decoration: none;      
+  color: white;              
   font-family: 'Press Start 2P', monospace;
   font-size: 16px;
   transition: color 0.3s;
@@ -32,16 +32,16 @@ padding: 10px 0;
 
 /* Efeito hover */
 .navbar-list li a:hover {
-  color: red;                  /* muda a cor ao passar o mouse */
+  color: red;                
 }
 .int{
-    display: flex;           /* coloca imagem e texto lado a lado */
-    align-items: center;     /* alinha verticalmente */
+    display: flex;          
+    align-items: center;    
     gap: 20px; 
 }
 
 .imagem {
-  width: 1400px;            /* você pode ajustar o tamanho da imagem */
+  width: 1400px;          
   height: auto;
   
 }
@@ -52,7 +52,7 @@ padding: 10px 0;
 }
 
 .texto {
-  color: white;            /* ou a cor que quiser */
+  color: white;            
   font-size: 16px;
 }
 
@@ -62,7 +62,7 @@ padding: 10px 0;
 
 .personagens {
     display: flex;
-    justify-content: center;     /* centraliza horizontalmente */
+    justify-content: center;    
 
 }
 
@@ -93,4 +93,5 @@ h2{
      1px -1px 0 red,
     -1px  1px 0 red,
      1px  1px 0 red; 
+
 }
