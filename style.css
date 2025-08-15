@@ -1,0 +1,96 @@
+body{
+    font-family: 'Press Start 2P', monospace;
+    background-color:black;
+    text-align: center;
+    color: white;
+}
+
+
+.navbar {
+background-color: #000000;       /* cor de fundo da navbar */
+padding: 10px 0;
+}
+
+/* Lista da navbar em linha (horizontal) */
+.navbar-list {
+  display: flex;                /* deixa os itens em linha */
+  justify-content: center;     /* centraliza horizontalmente */
+  list-style: none;            /* remove os pontos da lista */
+  margin: 0;
+  padding: 0;
+  gap: 80px;                    /* espaço entre os itens */
+}
+
+/* Links da navbar */
+.navbar-list li a {
+  text-decoration: none;       /* tira o sublinhado */
+  color: white;                /* cor do texto */
+  font-family: 'Press Start 2P', monospace;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+/* Efeito hover */
+.navbar-list li a:hover {
+  color: red;                  /* muda a cor ao passar o mouse */
+}
+.int{
+    display: flex;           /* coloca imagem e texto lado a lado */
+    align-items: center;     /* alinha verticalmente */
+    gap: 20px; 
+}
+
+.imagem {
+  width: 1400px;            /* você pode ajustar o tamanho da imagem */
+  height: auto;
+  
+}
+
+.imagens{
+    width: 100px;   
+    height: 120px;
+}
+
+.texto {
+  color: white;            /* ou a cor que quiser */
+  font-size: 16px;
+}
+
+.subtitulo{
+    font-size: 50px;
+}
+
+.personagens {
+    display: flex;
+    justify-content: center;     /* centraliza horizontalmente */
+
+}
+
+.subt{
+     text-shadow:
+    -1px -1px 0 red,
+     1px -1px 0 red,
+    -1px  1px 0 red,
+     1px  1px 0 red; 
+}
+
+
+
+
+h1{
+    font-size: 70px;
+    text-shadow:
+    -2px -2px 0 red,
+     2px -2px 0 red,
+    -2px  2px 0 red,
+     2px  2px 0 red; 
+
+}
+
+h2{
+     text-shadow:
+    -1px -1px 0 red,
+     1px -1px 0 red,
+    -1px  1px 0 red,
+     1px  1px 0 red; 
+}
