@@ -1,0 +1,97 @@
+body{
+    font-family: 'Press Start 2P', monospace;
+    background-color:black;
+    text-align: center;
+    color: white;
+}
+
+
+.navbar {
+background-color: #000000;       
+padding: 10px 0;
+}
+
+
+.navbar-list {
+  display: flex;                
+  justify-content: center;     
+  list-style: none;           
+  margin: 0;
+  padding: 0;
+  gap: 80px;                 
+}
+
+
+.navbar-list li a {
+  text-decoration: none;      
+  color: white;              
+  font-family: 'Press Start 2P', monospace;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+/* Efeito hover */
+.navbar-list li a:hover {
+  color: red;                
+}
+.int{
+    display: flex;          
+    align-items: center;    
+    gap: 20px; 
+}
+
+.imagem {
+  width: 1400px;          
+  height: auto;
+  
+}
+
+.imagens{
+    width: 100px;   
+    height: 120px;
+}
+
+.texto {
+  color: white;            
+  font-size: 16px;
+}
+
+.subtitulo{
+    font-size: 50px;
+}
+
+.personagens {
+    display: flex;
+    justify-content: center;    
+
+}
+
+.subt{
+     text-shadow:
+    -1px -1px 0 red,
+     1px -1px 0 red,
+    -1px  1px 0 red,
+     1px  1px 0 red; 
+}
+
+
+
+
+h1{
+    font-size: 70px;
+    text-shadow:
+    -2px -2px 0 red,
+     2px -2px 0 red,
+    -2px  2px 0 red,
+     2px  2px 0 red; 
+
+}
+
+h2{
+     text-shadow:
+    -1px -1px 0 red,
+     1px -1px 0 red,
+    -1px  1px 0 red,
+     1px  1px 0 red; 
+
+}
